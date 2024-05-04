@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.container1 {
+  background-color: #ffffff;
+  z-index: 3;
+}
+.sub {
+  position: absolute;
+  display: flex;
+  top: 3pc;
+  right: 134px;
+}
+.a:hover {
+  color: red;
+  transition: .4s;
+}
+.img {
+  position: absolute;
+  top: 2pc;
+  left: 7pc;
+  /* display: block;
+    object-fit: cover; */
+}
+
+a {
+  color: black;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.container2 {
+  box-sizing: border-box;
+  padding-top: 6pc;
+}
+.black {
+  background-color: black;
+  padding: 1.7pc;
+  color: #ffffff;
+  text-align: center;
+}
+.sub-black {
+  align-content: center;
+  padding-top: 1pc;
+  display: inline;
+  background-color: #ffffff;
+  /* background: transparent; */
+  padding-bottom: 1.3pc;
+  color: black;
+  padding-left: 0.5pc;
+  padding-right: 0.5pc;
+  padding-top: 1pc;
+}
+
+.search {
+  background-color: #ffffff;
+  padding: 1pc 3pc;
+  border: 1px solid #ffffff;
+}
+
+.line {
+  position: absolute;
+  border-left: 1px solid grey;
+  height: 30px;
+  float: right;
+  right: 3pc;
+  top: 0.8pc;
+  z-index: 1;
+}
+.hard {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5pc;
+}
+.lex {
+  display: flex;
+  justify-content: center;
+}
+.po {
+  position: absolute;
+  border-left: 1px solid grey;
+  height: 30px;
+  float: right;
+  top: 3pc;
+  right: 2pc;
+}
+
+.jo {
+  position: absolute;
+  border-left: 1px solid grey;
+  height: 30px;
+}
+
+.ped {
+  width: 299px;
+  height: 450.8px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.pod {
+  width: 300px;
+  height: 450.8px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.ptd {
+  width: 300px;
+  height: 450.8px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.side {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+button {
+  position: absolute;
+  width: 320px;
+  left: 0px;
+  bottom: 0pc;
+  background-color: gray;
+  border: none;
+  padding: 7px;
+  text-align: start;
+  font-size: 18px;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  padding-top: 2pc;
+}
+.people {
+  border: 2px solid black;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
+  background-color: white;
+}
+.people:hover {
+  background-color: black;
+  color: white;
+}
+.shop {
+  align-items: center;
+  padding-bottom: 2pc;
+  margin-top: 3pc;
+}
+.car {
+  display: flex;
+  justify-content: center;
+  margin-top: 2pc;
+  color: #000000;
+}
+.padd {
+  padding-left: 3pc;
+}
+.h5:hover {
+  border-bottom: 1px solid limegreen;
+  width: fit-content;
+}
+.h6:hover {
+  border-bottom: 1px solid black;
+}
+.pic {
+  text-align: center;
+  margin: auto;
+  padding-top: 1.5pc;
+}
+.pull {
+  margin-left: 8pc;
+  display: flex;
+  justify-content: center;
+  padding-top: 1pc;
+}
+.kill {
+  padding-left: 1pc;
+}
+.ship {
+  margin-right: 7pc;
+  padding-left: 10px;
+}
+.pop {
+  width: 9pc;
+  padding: 1pc;
+  border: 2px solid black;
+  margin-left: 5pc;
+}
+.pop:hover {
+  background-color: black;
+  color: white;
+}
+
+.emma {
+  text-align: center;
+}
+.see {
+  display: flex;
+  margin-top: 4pc;
+  padding-bottom: 2pc;
+  overflow-x: auto;
+  overscroll-behavior: contain;
+}
+.sre {
+  display: flex;
+  justify-content: center;
+  padding-top: 3pc;
+}
+.u {
+  padding: 1pc;
+}
+.foot {
+  background-color: black;
+  padding-left: 5pc;
+}
+.footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.p {
+  font-size: 9px;
+}
+
+.q1,
+.q2,
+.q3,
+.q4 {
+  padding: 50px;
+  margin-top: 2pc;
+}
+.no-underline {
+  display: flex;
+  justify-content: center;
+  padding-top: 1pc;
+}
